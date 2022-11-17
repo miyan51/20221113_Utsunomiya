@@ -97,10 +97,16 @@ span {
   padding-bottom: 30px;
 }
 
+.news .con_ttl,
+.news .logo {
+  text-align: center;
+}
+
 .news_li {
   color: grey;
   padding: 20px 0;
   border-bottom: 1px rgb(209, 209, 209) solid;
+  text-align: center;
 }
 
 .news_li span {
@@ -395,10 +401,16 @@ span {
   position: relative;
 }
 
-img.recommend_left_img,
-.recommend_right_img {
-  width: 49vw;
+img.recommend_left_img {
+  width: 50vw;
 
+
+}
+
+.recommend_right_img {
+  width: 50vw;
+  position: absolute;
+  right: 0%;
 }
 
 .recommend_left_text {
@@ -416,7 +428,7 @@ img.recommend_left_img,
   font-weight: bold;
   position: absolute;
   top: 45%;
-  left: 70%;
+  left: 65%;
 }
 
 .inquiry_inner {
