@@ -53,13 +53,12 @@ header {
   position: absolute;
   right: 0%;
   width: 60%;
-  height: 100%;
 }
 
 .pickup_text1 {
   font-family: 'Gloria Hallelujah', cursive;
   color: rgb(255, 0, 102);
-  font-size: 65px;
+  font-size: 350%;
   position: absolute;
   top: 20%;
   left: 20%;
@@ -94,13 +93,14 @@ span {
 
 .news_top {
   height: 70px;
-  border-bottom: 1px gray solid;
+  border-bottom: 1px rgb(209, 209, 209) solid;
   padding-bottom: 30px;
 }
 
 .news_li {
   color: grey;
-  margin: 30px 0;
+  padding: 20px 0;
+  border-bottom: 1px rgb(209, 209, 209) solid;
 }
 
 .news_li span {
@@ -176,6 +176,7 @@ span {
   text-align: center;
   margin: 5% 18% 0;
   line-height: 150%;
+  font-size: 1vw;
 }
 
 .service_right_up {
@@ -206,6 +207,7 @@ span {
   left: 30%;
   margin: 10px 95px 0 0;
   line-height: 150%;
+  font-size: 1vw;
 }
 
 .service_right_down {
@@ -236,6 +238,7 @@ span {
   left: 30%;
   margin: 10px 95px 0 0;
   line-height: 150%;
+  font-size: 1vw;
 }
 
 .blog_inner {
@@ -360,6 +363,7 @@ span {
   border: 3px rgb(255, 0, 174) solid;
   color: rgb(255, 0, 174);
   font-weight: bold;
+  font-size: 1vw;
 }
 
 .company_inner {
@@ -393,13 +397,13 @@ span {
 
 img.recommend_left_img,
 .recommend_right_img {
-  width: 50vw;
+  width: 49vw;
 
 }
 
 .recommend_left_text {
   color: white;
-  font-size: 40px;
+  font-size: 3vw;
   font-weight: bold;
   position: absolute;
   top: 45%;
@@ -408,7 +412,7 @@ img.recommend_left_img,
 
 .recommend_right_text {
   color: white;
-  font-size: 40px;
+  font-size: 3vw;
   font-weight: bold;
   position: absolute;
   top: 45%;
